@@ -1,0 +1,1 @@
+setOldClass("fake.data.frame")
