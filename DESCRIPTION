@@ -1,12 +1,11 @@
 Package: cbindtest
+Type: Package
 Version: 0.0.1
 Date: 2016-02-25
 Title: cbindtest
 Authors@R: c("Michael", "Lee", role=c("aut"), email="mdlee12@gmail.com")
 Author: Michael Lee
 Maintainer: Michael Lee <mdlee12@gmail.com>
-Depends:
-    R (>= 3.0.0),
 Description: tests cbind with nextMethod
 License: GPL-2
 Suggests:

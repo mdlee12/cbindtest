@@ -5,9 +5,10 @@ This motivation for this package is to ascertain the correct way of testing vari
 if (packageVersion("devtools") < 1.6) {
   install.packages("devtools")
 }
+library(devtools)
 install_github("mdlee12/cbindtest")
 library(cbindtest)
-setwd("C:/package_location/cbindtest")
+setwd(system.file(package = "cbindtest"))
 devtools::test()
 ```
 

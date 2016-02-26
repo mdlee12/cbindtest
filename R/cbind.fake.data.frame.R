@@ -1,3 +1,8 @@
+#' @title Binds a fake.data.frame to another fake.data.frame or a data.frame.
+#'
+#' @description Binds a fake.data.frame to another fake.data.frame or a \code{data.frame}.
+#'
+#' @param x a fake.data.frame
 #' @method cbind fake.data.frame
 #' @export
 cbind.fake.data.frame <- function(x, ...) {
